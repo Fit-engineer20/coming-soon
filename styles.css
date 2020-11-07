@@ -1,0 +1,171 @@
+/* body{
+  background-color: #85cfd7;
+} */
+.container-fluid{
+ /* background-color: #85cfd7; */
+ background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+ margin-top: 0;
+ margin-bottom: 0;
+ padding:5px;
+}
+.top-row{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.box{
+  /* background-color: #85cfd7; */
+  margin-top: 100px;
+  margin-bottom:100px;
+  border: 10px solid;
+  border-radius: 7%;
+  border-color: #3B3B3B;
+}
+.row{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.coming-soon{
+  width: 450px;
+  height: 300px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.paper{
+  height:280px;
+  width:280px;
+  margin-top:30px;
+  position:absolute;
+  left:250px;
+  transform: rotate(-20deg);
+}
+
+input{
+  margin-left: 80px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.input-btn{
+  margin-left:30px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.col2{
+  text-align: right;
+  position:relative;
+}
+.brand{
+  font-family: 'Acme', sans-serif;
+  font-size: 4.5rem;
+  color:white;
+  margin-right: 5px;
+}
+.subtext{
+  font-size: 1.5rem;
+  color:white;
+}
+.bottom-row{
+  margin-bottom: 50px;
+}
+.col-icon{
+  text-align: right;
+}
+.fab{
+  margin-right: 10px;
+  color:white;
+  margin-top: 20px;
+}
+.logo{
+  width:100px;
+  height:100px;
+}
+@media (max-width:900px){
+  .container-fluid{
+    padding-bottom: 10px;
+  }
+  .bottom-col{
+    text-align: center;
+  }
+  input{
+    margin-left: 130px;
+  }
+  .input-btn{
+    margin-left:60px;
+  }
+  .col2{
+    margin-top: 70px;
+  }
+ .box{
+   margin-top:50px;
+   margin-bottom:50px;
+ }
+ .paper{
+   height:200px;
+   width:200px;
+   margin-top:50px;
+   position:static;
+ }
+}
+@media (max-width:500px){
+  .bottom-col{
+    text-align: center;
+  }
+  .coming-soon{
+    width:300px;
+    height:200px;
+  }
+  input{
+    margin-left: 40px;
+  }
+  .input-btn{
+    margin-left:0;
+  }
+  .box{
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+  .fab{
+    margin-top: 40px;
+  }
+}
+@media (max-width:400px){
+  .bottom-col{
+    text-align: center;
+  }
+  .coming-soon{
+    width:280px;
+    height:200px;
+  }
+  input{
+    margin-left: 20px;
+  }
+  .input-btn{
+    margin-left:0;
+  }
+  .box{
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+  .bottom-row{
+    margin-left: 0;
+  }
+  .fab{
+    margin-top: 40px;
+  }
+  .fa-facebook{
+    margin-right: 5px;
+    margin-left: 8px;
+  }
+  .top-row{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .top-row-col{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .logo{
+    margin-left: 10px;
+  }
+}
