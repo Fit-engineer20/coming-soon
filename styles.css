@@ -1,13 +1,18 @@
-/* body{
-  background-color: #85cfd7;
-} */
+body{
+  /* background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%); */
+  /* position:fixed;
+   top:0;
+   bottom:0;
+   left:0;
+   right:0; */
+}
 .container-fluid{
  /* background-color: #85cfd7; */
  background-color: #FF3CAC;
-background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
- margin-top: 0;
- margin-bottom: 0;
- padding:5px;
+ background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+ padding-top: 4rem;
+ min-height:100vh;
 }
 .top-row{
   margin-top: 30px;
@@ -16,8 +21,8 @@ background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)
 }
 .box{
   /* background-color: #85cfd7; */
-  margin-top: 100px;
-  margin-bottom:100px;
+  /* margin-top: 100px; */
+  /* margin-bottom:100px; */
   border: 10px solid;
   border-radius: 7%;
   border-color: #3B3B3B;
@@ -116,7 +121,7 @@ input{
     height:200px;
   }
   input{
-    margin-left: 40px;
+    margin-left: 30px;
   }
   .input-btn{
     margin-left:0;
@@ -128,6 +133,9 @@ input{
   .fab{
     margin-top: 40px;
   }
+  .container-fluid{
+    padding-top:1.5rem;
+  }
 }
 @media (max-width:400px){
   .bottom-col{
@@ -137,8 +145,8 @@ input{
     width:280px;
     height:200px;
   }
-  input{
-    margin-left: 20px;
+input{
+    margin-left: 10px;
   }
   .input-btn{
     margin-left:0;
