@@ -1,14 +1,5 @@
-body{
-  /* background-color: #FF3CAC;
-  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%); */
-  /* position:fixed;
-   top:0;
-   bottom:0;
-   left:0;
-   right:0; */
-}
+
 .container-fluid{
- /* background-color: #85cfd7; */
  background-color: #FF3CAC;
  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
  padding-top: 4rem;
@@ -20,9 +11,6 @@ body{
   margin-left: 20px;
 }
 .box{
-  /* background-color: #85cfd7; */
-  /* margin-top: 100px; */
-  /* margin-bottom:100px; */
   border: 10px solid;
   border-radius: 7%;
   border-color: #3B3B3B;
@@ -121,7 +109,7 @@ input{
     height:200px;
   }
   input{
-    margin-left: 30px;
+    margin-left: 20px;
   }
   .input-btn{
     margin-left:0;
@@ -133,9 +121,6 @@ input{
   .fab{
     margin-top: 40px;
   }
-  .container-fluid{
-    padding-top:1.5rem;
-  }
 }
 @media (max-width:400px){
   .bottom-col{
@@ -146,7 +131,7 @@ input{
     height:200px;
   }
 input{
-    margin-left: 10px;
+    margin-left: 15px;
   }
   .input-btn{
     margin-left:0;
@@ -175,5 +160,20 @@ input{
   }
   .logo{
     margin-left: 10px;
+  }
+  .col1{
+    padding-left: 5px;
+    padding-right: 0;
+  }
+}
+@media (min-width:1000px){
+  .center {
+    height:650px;
+    width:1200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -325px;
+    margin-left: -600px;
   }
 }
