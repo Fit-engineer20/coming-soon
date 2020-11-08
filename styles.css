@@ -2,7 +2,6 @@
 .container-fluid{
  background-color: #FF3CAC;
  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
- padding-top: 4rem;
  min-height:100vh;
 }
 .top-row{
@@ -34,9 +33,6 @@
   transform: rotate(-20deg);
 }
 
-input{
-  margin-left: 70px;
-}
 .col2{
   text-align: right;
   position:relative;
@@ -69,15 +65,19 @@ input{
 @media (max-width:900px){
   .container-fluid{
     padding-bottom: 10px;
+    padding-top: 1.5rem;
   }
   .bottom-col{
     text-align: center;
   }
-  input{
+  /* input{
     margin-left: 140px;
-  }
-  .input-btn{
+  } */
+  /* .input-btn{
     margin-left:40px;
+  } */
+  .form-input{
+    justify-content: center;
   }
   .col2{
     margin-top: 50px;
@@ -94,6 +94,9 @@ input{
  }
 }
 @media (max-width:500px){
+  .container-fluid{
+    padding-top: 1.5rem;
+  }
   .bottom-col{
     text-align: center;
   }
@@ -101,12 +104,14 @@ input{
     width:300px;
     height:200px;
   }
-  input{
+  /* input{
     margin-left: 33px;
-  }
+  } */
    .input-btn{
      margin-top: 5px;
-    margin-left:33px;
+  }
+  .form-input{
+    justify-content: center;
   }
   .box{
     margin-top:20px;
@@ -115,8 +120,14 @@ input{
   .fab{
     margin-top: 40px;
   }
+  .paper{
+    display:none;
+  }
 }
 @media (max-width:400px){
+  .container-fluid{
+    padding-top: 1.5rem;
+  }
   .bottom-col{
     text-align: center;
   }
@@ -124,12 +135,14 @@ input{
     width:280px;
     height:200px;
   }
-  input{
-    margin-left:30px;
+  .form-input{
+    justify-content: center;
   }
+  /* input{
+    margin-left:30px;
+  } */
   .input-btn{
     margin-top: 5px;
-    margin-left:30px;
   }
   .box{
     margin-top:20px;
@@ -160,9 +173,15 @@ input{
     padding-left: 5px;
     padding-right: 0;
   }
+  .paper{
+    display:none;
+  }
 }
 
 @media (min-width:1000px){
+  input{
+    margin-left: 70px;
+  }
   .center {
     height:650px;
     width:1200px;
